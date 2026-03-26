@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>FlowLens Lite</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>FlowLens Lite</h2>
+    <div id="summary">
+      <p>Loading metrics…</p>
+    </div>
+
+    <div class="section">
+      <h3>Top slow PRs</h3>
+      <ul id="top-prs" class="list"></ul>
+    </div>
+
+    <div class="section">
+      <h3>Top slow Jira issues</h3>
+      <ul id="top-jira" class="list"></ul>
+    </div>
+
+    <div class="section">
+      <button id="refresh">Refresh</button>
+      <button id="reset">Reset All Data</button>
+    </div>
+
+    <div class="footer">
+      <small>All data stored locally in your browser.</small>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
